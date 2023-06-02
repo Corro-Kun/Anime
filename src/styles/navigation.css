@@ -1,0 +1,11 @@
+header{
+    display: flex;
+    background-color: #212A3E;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #9BA4B5;
+}
+header nav{
+    padding: 12px;
+    color: #F1F6F9;
+}
