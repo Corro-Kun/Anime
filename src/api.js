@@ -11,3 +11,9 @@ export async function GetAnime(ID){
     const {data} = await result.json();
     return data;
 }
+
+export async function PassPage(page){
+    const result = await fetch(Api + "?page=" + page);
+    const {data} = await result.json();
+    return data;
+}

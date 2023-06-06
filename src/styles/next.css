@@ -1,0 +1,20 @@
+.Next{
+    display: flex;
+    width: 98%;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.Next button{
+    color:  #F1F6F9;
+    background-color: #212A3E;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 5px #000;
+    transition: .5s ease;
+}
+.Next button:hover{
+    box-shadow: 0 0 10px #F1F6F9;
+}
