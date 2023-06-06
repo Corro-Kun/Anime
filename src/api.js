@@ -5,3 +5,9 @@ export async function GetData(){
     const {data} = await result.json();
     return data;
 }
+
+export async function GetAnime(ID){
+    const result = await fetch(Api + "/" + ID);
+    const {data} = await result.json();
+    return data;
+}

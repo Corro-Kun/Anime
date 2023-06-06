@@ -1,0 +1,52 @@
+.Data{
+    margin: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+    width: 97%;
+    background-color: #212A3E;
+    border-radius: 10px;
+    border: 2px solid #9BA4B5;
+}
+.Title{
+    margin: 10px;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    display: flex;
+    color:  #F1F6F9;
+    flex-direction: column;
+    text-align: center;
+    word-wrap: break-word;
+}
+.Title h2{
+    text-shadow: 0 0 5px #F1F6F9;
+}
+.Images{
+    display: flex;
+    margin: 10px;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.Images img{
+    border: 2px solid #9BA4B5;
+    border-radius: 10px;
+}
+.Synopsis{
+    color: #F1F6F9;
+    margin: 10px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    word-wrap: break-word;
+}
+.Stast{
+    margin-bottom: 10px;
+    display: flex;
+    color: #F1F6F9;
+    flex-direction: column;
+    text-align: center;
+    word-wrap: break-word;
+}
+.Stast h2{
+    margin: 10px;
+    text-shadow: 0 0 5px #F1F6F9;
+}

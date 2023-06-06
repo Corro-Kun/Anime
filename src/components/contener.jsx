@@ -13,7 +13,7 @@ function Contener(){
 
                 Api.map(Api =>{
                     return(
-                        <File Title={Api.title} SRC={Api.images.jpg.large_image_url} key={Api.mal_id} />
+                        <File Title={Api.title} SRC={Api.images.jpg.large_image_url} key={Api.mal_id} ID={Api.mal_id} />
                     )
                 })
 
