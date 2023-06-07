@@ -13,7 +13,7 @@ export async function GetAnime(ID){
 }
 
 export async function PassPage(page){
-    const result = await fetch(Api + "?page=" + page);
+    const result = await fetch("https://api.jikan.moe/v4/anime?page=" + page);
     const {data} = await result.json();
     return data;
 }

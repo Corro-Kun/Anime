@@ -1,6 +1,6 @@
 import React,{useContext, createContext, useEffect, useState} from "react";
 import { useNavigate } from "react-router-dom";
-import { GetData } from "../api.js"
+import { GetData,PassPage } from "../api.js"
 
 const Newcontext = createContext();
 

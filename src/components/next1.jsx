@@ -8,13 +8,7 @@ function Next(){
     const Navegate = useNavigate();
 
     function SetPage(){
-        try {
-            const {pag} = useParams();
-            const page = pag + 1;
-            Navegate('/page/' + page);
-        } catch (error) {
-            Navegate('/page/' + 2);
-        }
+        Navegate('/page/' + 2)
     }
 
     return(
